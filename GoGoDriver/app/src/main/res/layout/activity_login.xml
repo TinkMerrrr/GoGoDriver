@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:text="GoGo"
+            android:textColor="#EEB422"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:text="Market"
+            android:textColor="#24AA3D"
+            android:layout_marginLeft="4dp"
+            android:textSize="35dp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        android:layout_gravity="center"
+        android:elevation="16dp"
+        android:src="@drawable/logo_login_marketer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        // nhập tên tài khoản
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="5dp"
+            android:background="@drawable/layout_login"
+            android:hint="Số điện thoại"
+            android:textColorHint="#DDDDDD"
+            app:hintTextColor="#24AA3D">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt_LoginUsername"
+                android:paddingTop="5dp"
+                android:textColor="@color/black"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        //Mật khẩu
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/layout_login"
+            android:paddingTop="5dp"
+            android:hint="Mật khẩu"
+            android:textColorHint="#DDDDDD"
+            app:hintTextColor="#24AA3D">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/txt_PassLoginUser"
+                android:paddingTop="5dp"
+                android:inputType="textPassword"
+                android:textColor="@color/black"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Quên mật khẩu ?"
+        android:layout_margin="10dp"
+        android:textColor="#24AA3D"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/Progress_bar_login"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:indeterminateTint="#24AA3D"/>
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_login_effect"
+            android:text="Đăng Nhập"
+            android:textColor="@drawable/button_text_login"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_login_effect"
+            android:text="Đăng Kí"
+            android:textColor="@drawable/button_text_login"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

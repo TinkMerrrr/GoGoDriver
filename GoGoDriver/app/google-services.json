@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "877588786869",
+    "firebase_url": "https://gogoapp-151b4-default-rtdb.firebaseio.com",
+    "project_id": "gogoapp-151b4",
+    "storage_bucket": "gogoapp-151b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877588786869:android:7d12ec565c9ee8621658fc",
+        "android_client_info": {
+          "package_name": "com.example.gogomarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877588786869-p8huacdbdim99pgsnc8mr9bh1q7mlkib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC81YLuw5QZOUQnRogKxAk9iFcxtOKN2b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877588786869-p8huacdbdim99pgsnc8mr9bh1q7mlkib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877588786869:android:eede2b8d2d81d3021658fc",
+        "android_client_info": {
+          "package_name": "com.weeworld.gogodriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877588786869-p8huacdbdim99pgsnc8mr9bh1q7mlkib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC81YLuw5QZOUQnRogKxAk9iFcxtOKN2b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877588786869-p8huacdbdim99pgsnc8mr9bh1q7mlkib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
