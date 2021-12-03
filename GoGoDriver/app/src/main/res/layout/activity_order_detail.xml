@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OrderDetailActivity"
+    android:background="#E8E8E8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_weight="0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thông tin đơn hàng"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="3dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên người nhận "
+                android:textSize="21dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:paddingLeft="7dp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txt_Name_Order"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/botron_edittext"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="Nhập tên người nhận ...."
+            android:textSize="20dp"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số điện thoại người nhận"
+                android:textSize="21dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:paddingLeft="7dp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txt_Phone_Order"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/botron_edittext"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="Nhập số điện thoạỉ...."
+            android:textSize="20dp"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giao tới địa chỉ   > "
+                android:textSize="21dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:paddingLeft="7dp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txt_Address"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/botron_edittext"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="Nhập địa chỉ...."
+            android:textSize="20dp"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chi tiết đơn hàng"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="3dp"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/CartUser_Rec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:background="#24AA3D">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Tổng đơn:"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/total_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="0"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="VND"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnReceiveOrder"
+                android:layout_width="160dp"
+                android:layout_height="45dp"
+                android:background="@color/white"
+                android:text="Nhận đơn"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#24AA3D" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

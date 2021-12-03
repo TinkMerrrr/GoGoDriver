@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/helper_page_nav">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/helper_page_nav"
+    app:startDestination="@id/checkListOrderFragment">
 
+    <fragment
+        android:id="@+id/checkListOrderFragment"
+        android:name="com.weeworld.gogodriver.Fragment.CheckListOrderFragment"
+        android:label="fragment_check_list_order"
+        tools:layout="@layout/fragment_check_list_order" />
+    <fragment
+        android:id="@+id/listOrderFragment"
+        android:name="com.weeworld.gogodriver.Fragment.ListOrderFragment"
+        android:label="fragment_list_order"
+        tools:layout="@layout/fragment_list_order" />
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="com.weeworld.gogodriver.Fragment.WalletFragment"
+        android:label="fragment_wallet"
+        tools:layout="@layout/fragment_wallet" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.weeworld.gogodriver.Fragment.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.weeworld.gogodriver.Fragment.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
 </navigation>

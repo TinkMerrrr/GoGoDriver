@@ -67,17 +67,13 @@ public class LoginActivity extends AppCompatActivity{
         });
 
         if (firebaseUser != null){
-            Intent intent = new Intent(LoginActivity.this , DriverMapsActivity.class);
+            Intent intent = new Intent(LoginActivity.this , MainPageActivity.class);
             startActivity(intent);
         }
     }
 
     // đăng nhập
     private void LoginUser() {
-        String userID = firebaseUser.getUid();
-
-        databaseReference = FirebaseDatabase.getInstance().getReference("Users").child(userID).child("FullnameUser");
-
         String Username , PassLoginUser;
 
         Username = txtLoginUser.getText().toString();
@@ -100,7 +96,7 @@ public class LoginActivity extends AppCompatActivity{
                 if (task.isSuccessful()){
                     //FirebaseUser user = auth.getCurrentUser();
                     progressBarSignUp.setVisibility(View.GONE);
-                    Intent intent = new Intent(LoginActivity.this , DriverMapsActivity.class);
+                    Intent intent = new Intent(LoginActivity.this , MainPageActivity.class);
                     startActivity(intent);
                 }
                 else {
@@ -108,6 +104,10 @@ public class LoginActivity extends AppCompatActivity{
                 }
             }
         });
+
+        //String userID = firebaseUser.getUid();
+
+        //databaseReference = FirebaseDatabase.getInstance().getReference("Users").child(userID).child("FullnameUser");
 
 
     }
