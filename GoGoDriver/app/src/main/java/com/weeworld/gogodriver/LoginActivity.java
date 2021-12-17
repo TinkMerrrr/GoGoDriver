@@ -94,7 +94,7 @@ public class LoginActivity extends AppCompatActivity{
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
-                    //FirebaseUser user = auth.getCurrentUser();
+                    FirebaseUser user = auth.getCurrentUser();
                     progressBarSignUp.setVisibility(View.GONE);
                     Intent intent = new Intent(LoginActivity.this , MainPageActivity.class);
                     startActivity(intent);

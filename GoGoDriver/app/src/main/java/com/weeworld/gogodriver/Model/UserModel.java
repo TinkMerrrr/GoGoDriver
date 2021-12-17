@@ -1,7 +1,8 @@
 package com.weeworld.gogodriver.Model;
 
-public class UserModel {
+import com.google.firebase.database.DatabaseReference;
 
+public class UserModel {
     String UserID;
     String picUser;
     String Status;
@@ -10,6 +11,7 @@ public class UserModel {
     String PassUser;
     String PhoneUser;
     String EmailUser;
+    String AddressUser;
 
     public UserModel(){}
 
@@ -23,6 +25,8 @@ public class UserModel {
         this.PhoneUser = phoneUser;
         this.EmailUser = emailUser;
     }
+
+
 
     public String getUserID() {
         return UserID;
@@ -86,5 +90,13 @@ public class UserModel {
 
     public void setEmailUser(String emailUser) {
         EmailUser = emailUser;
+    }
+
+    public String getAddressUser() {
+        return AddressUser;
+    }
+
+    public void setAddressUser(String AddressUser) {
+        this.AddressUser = AddressUser;
     }
 }

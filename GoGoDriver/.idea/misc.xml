@@ -26,6 +26,30 @@
         <entry key="..\:/Users/admin/Desktop/GoGoDriver/app/src/main/res/drawable/layout_edit_signup.xml" value="0.20925925925925926" />
         <entry key="..\:/Users/admin/Desktop/GoGoDriver/app/src/main/res/layout/activity_login.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/admin/Desktop/GoGoDriver/app/src/main/res/layout/activity_sign_up.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/drawable/background_chat_user.xml" value="0.24871794871794872" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/drawable/background_left.xml" value="0.24871794871794872" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/drawable/background_right.xml" value="0.24871794871794872" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/drawable/ic_action_name.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/drawable/ic_baseline_local_shipping_24.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/activity_driver_maps.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/activity_home_order.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/activity_main.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/activity_message.xml" value="0.115625" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/activity_order_detail.xml" value="0.115625" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/chat_item_left.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/chat_item_right.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/fragment_account.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/fragment_chat.xml" value="0.1" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/fragment_chats.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/fragment_check_list_order.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/fragment_list_order.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/fragment_users.xml" value="0.115625" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/fragment_wallet.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/item_cart_detail.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/item_list_order.xml" value="0.115625" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/message_user.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/order_view_layout.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/admin/Documents/GitHub/GoGoDriver/GoGoDriver/app/src/main/res/layout/user_item.xml" value="0.23645833333333333" />
       </map>
     </option>
   </component>

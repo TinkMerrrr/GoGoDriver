@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -45,6 +46,7 @@ public class ListOrderAdapter extends RecyclerView.Adapter<ListOrderAdapter.View
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView Status , NameOrder , PhoneOrder , AddressOrder;
+        ///Button ship;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -53,6 +55,8 @@ public class ListOrderAdapter extends RecyclerView.Adapter<ListOrderAdapter.View
             PhoneOrder = itemView.findViewById(R.id.Phone_Order);
             AddressOrder = itemView.findViewById(R.id.Address_Order);
             //Status = itemView.findViewById(R.id.Status_Order);
+            //ship = itemView.findViewById(R.id.btn_shipping);
+
         }
     }
 }
